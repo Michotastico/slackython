@@ -8,5 +8,6 @@ setup(
     license='MIT',
     author='Michel Llorens',
     author_email='mllorens@dcc.uchile.cl',
-    description='Python library to send slack messages using webhooks '
+    description='Python library to send slack messages using webhooks ',
+    install_requires=['requests'],
 )
